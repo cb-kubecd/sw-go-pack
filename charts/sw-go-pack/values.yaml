@@ -3,8 +3,8 @@
 # Declare variables to be passed into your templates.
 replicaCount: 1
 image:
-  repository: draft
-  tag: dev
+  repository: 10.3.252.192:5000/cb-kubecd/sw-go-pack
+  tag: 0.0.1
   pullPolicy: IfNotPresent
 service:
   name: sw-go-pack
